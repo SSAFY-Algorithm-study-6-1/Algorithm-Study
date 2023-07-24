@@ -10,7 +10,7 @@ class Tuple{
 	}
 }
 
-public class Main{
+public class BOJ_7569_토마토{
 	static StringTokenizer st;
 	static int m,n,h;
 	static int cube[][][], dist[][][];
