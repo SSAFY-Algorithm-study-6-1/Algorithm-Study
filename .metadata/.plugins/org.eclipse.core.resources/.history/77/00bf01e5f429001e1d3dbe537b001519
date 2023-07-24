@@ -1,0 +1,6 @@
+package heesu;
+public class BOJ_11050_이항계수 {
+	public static void main(String[] args) {
+		System.out.println("Hello world");
+	}
+}
