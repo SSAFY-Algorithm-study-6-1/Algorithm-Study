@@ -69,11 +69,11 @@
 
 ## 📁 Repository 폴더 구조
 
-- Github ID/주차/소스코드(플랫폼, 문제 번호와 제목 명시)
+- 주차/ Github ID /소스코드(플랫폼, 문제 번호와 제목 명시)
 
 ### 💡 예시
 
-`jinny-l/week_01/BOJ_1000_A+B.java`
+`week_01/ryuj-h/BOJ_1000_A+B.java`
 
 <br/>
 
