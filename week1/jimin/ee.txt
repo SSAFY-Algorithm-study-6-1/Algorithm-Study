@@ -1,3 +1,0 @@
-git add .
-git commit -m "파일명"
-git push origin main
