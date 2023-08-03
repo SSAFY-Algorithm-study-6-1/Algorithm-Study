@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 /**
  * 14002 가장 긴 증가하는 부분 수열 4
  */
-public class boj_14002 {
+public class boj_14002_가장_긴_증가하는_부분수열_4{
 	public static void main(String[] args) throws IOException {
 		StringBuffer sb = new StringBuffer();
 		
