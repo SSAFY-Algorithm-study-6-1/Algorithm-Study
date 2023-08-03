@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main{
+public class BOJ_11050_이항계수_Tabulation{
 	static int n,k;
 	static StringTokenizer st;
 	static int MAX_N = 10;
