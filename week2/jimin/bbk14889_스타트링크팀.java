@@ -27,12 +27,12 @@ public class bk14889_스타트링크팀 {
 
 		}
 		MIN=Integer.MAX_VALUE;
-		cook(0,0);
+		team(0,0);
 		System.out.println(MIN);
 
 	}
 
-	private static void cook(int idx,int start) {
+	private static void team(int idx,int start) {
 		//요소 2개 선택
 		if(idx==N/2) {			
 			//System.out.println(Arrays.toString(isSelected));//출력 확인용			
@@ -42,7 +42,7 @@ public class bk14889_스타트링크팀 {
 		}
 		for (int i = start; i <N; i++) {
 			isSelected[i]=true;
-			cook(idx+1,i+1);
+			team(idx+1,i+1);
 			isSelected[i]=false;
 		}
 
