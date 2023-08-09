@@ -13,7 +13,7 @@ import java.io.IOException;
  * 15649 N과 M (1)
  *
  */
-public class boj_15649 {
+public class boj_15649_N과_M_1 {
 	static StringBuilder sb = new StringBuilder();
 	static int[] arr;
 	static boolean[] isNumChoosed;
