@@ -30,7 +30,7 @@ public class bk2606_바이러스 {
 		int count=0;
 		while(!q.isEmpty()) {
 			int p=q.poll();
-			for (int i = 0; i < M; i++) {//1번과 연결된 컴퓨터 찾아 count 증가
+			for (int i = 0; i < N; i++) {//1번과 연결된 컴퓨터 찾아 count 증가
 				if(arr[p][i]==1 && !visit[i]) {
 					q.add(i);
 					visit[i]=true;
