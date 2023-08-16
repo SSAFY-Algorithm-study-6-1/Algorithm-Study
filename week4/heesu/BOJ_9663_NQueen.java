@@ -5,8 +5,8 @@ public class BOJ_9663_NQueen {
 	static int n, ans;
 	static int visited[][];
 	
-	static int dy[] = {-1,-1,0,1,1,1,0,-1};
-	static int dx[] = {0,1,1,1,0,-1,-1,-1};
+	static int dy[] = {1,1,1};
+	static int dx[] = {-1,0,1};
 	static boolean OOB(int y,int x) {
 		return y<=0 || y>n || x<=0 || x>n;
 	}
@@ -14,7 +14,7 @@ public class BOJ_9663_NQueen {
 	static void select(int cy,int cx) {
 		visited[cy][cx]+=1;
 		
-		for(int dir = 0; dir<8;dir++) {
+		for(int dir = 0; dir<3;dir++) {
 			int y = cy;
 			int x = cx;
 			
@@ -33,7 +33,7 @@ public class BOJ_9663_NQueen {
 	static void restore(int cy,int cx) {
 		visited[cy][cx]-=1;
 		
-		for(int dir = 0; dir<8;dir++) {
+		for(int dir = 0; dir<3;dir++) {
 			int y = cy;
 			int x = cx;
 			
@@ -73,5 +73,6 @@ public class BOJ_9663_NQueen {
 		solve(1,0);
 		System.out.println(ans);
 	}
+
 
 }
