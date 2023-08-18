@@ -3,7 +3,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-
+/**
+ *  풀이 방식 : backtracking 
+ *  bfs가 더 쉬워보이지만 주제에 맞게 백트레킹으로 풀었습니다
+ * 
+ */
 
 
 public class boj2644 {
@@ -47,6 +51,7 @@ public class boj2644 {
 			map[b][a] = 1;
 		}
 
+		//S1 방문
 		visit[S1] = true;
 		dfs_backtrack(0,S1);
 		visit[S1] = false;
