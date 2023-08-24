@@ -19,6 +19,7 @@ public class Main {
 			if(weight >=500) {
 				Solution++;
 			}
+			Solution++;
 			return;			
 		}
 
