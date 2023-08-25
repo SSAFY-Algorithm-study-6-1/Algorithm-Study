@@ -18,7 +18,7 @@ import java.io.*;
  * @author heesukim
  *
  */
-public class CodeTree_회전하는빙하 {
+public class 코드트리_회전하는빙하 {
 	static int n,q;
 	static int board[][], nxtBoard[][];
 	static int boardSize;
